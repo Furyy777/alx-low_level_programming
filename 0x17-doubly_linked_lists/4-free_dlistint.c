@@ -2,7 +2,7 @@
 
 
 /*
-* free_dlistint - Frees a linked dlistint_t list.
+* free_dlistint - Frees a doubly linked list.
 * @head: The head of the dlistint_t list.
 */
 void free_dlistint(dlistint_t *head)
