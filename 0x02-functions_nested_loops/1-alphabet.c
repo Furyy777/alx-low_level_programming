@@ -1,22 +1,19 @@
 #include "main.h"
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
 
+/**
+ * print_alphabet - Entry point
+ * Description: a function that prints the alphabet,
+ * in lowecase followed by a new line
+ * Return: void
+ */
+void print_alphabet(void)
+{
+	char letter = 'a';
 
-	int main(void)
+	while (letter <= 'z')
 	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+		_putchar(letter);
+		letter++;
 	}
-
+	_putchar('\n');
+}
